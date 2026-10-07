@@ -132,7 +132,7 @@ struct MessageInputView: View {
 
                     CustomTextEditor(text: $messageText,
                                      textHeight: $textHeight,
-                                     placeholderText: viewModel.currentChat?.messages.isEmpty ?? true ? "What's on your mind?" : "Message",
+                                     placeholderText: "Ask anything",
                                      shouldFocusInput: viewModel.shouldFocusInput,
                                      isLoading: viewModel.isLoading,
                                      onFocusHandled: { viewModel.shouldFocusInput = false },
@@ -181,7 +181,7 @@ struct MessageInputView: View {
 
                     CustomTextEditor(text: $messageText,
                                      textHeight: $textHeight,
-                                     placeholderText: viewModel.currentChat?.messages.isEmpty ?? true ? "What's on your mind?" : "Message",
+                                     placeholderText: "Ask anything",
                                      shouldFocusInput: viewModel.shouldFocusInput,
                                      isLoading: viewModel.isLoading,
                                      onFocusHandled: { viewModel.shouldFocusInput = false },

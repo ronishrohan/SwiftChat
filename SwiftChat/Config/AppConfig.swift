@@ -41,7 +41,7 @@ class AppConfig: ObservableObject {
     var apiBasePath: String = "/v1"
 
     /// System prompt sent with every conversation
-    var systemPrompt: String = "You are a helpful AI assistant."
+    var systemPrompt: String = "You are Tickle, a helpful personal AI assistant."
 
     /// Additional rules appended to the system prompt
     var rules: String = ""

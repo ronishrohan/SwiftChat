@@ -135,7 +135,7 @@ struct ChatContainer: View {
                 }
             }
             ToolbarItem(placement: .principal) {
-                Text("SwiftChat")
+                Text("Tickle")
                     .font(.system(size: 17, weight: .semibold))
                     .foregroundColor(toolbarContentColor)
                     .opacity(isSidebarOpen ? 1 : 0)
@@ -250,7 +250,7 @@ struct WelcomeView: View {
     var body: some View {
         VStack(spacing: 24) {
             VStack(spacing: 16) {
-                Text("Start a conversation")
+                Text("What can I help with?")
                     .font(.title)
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.center)

@@ -1,5 +1,7 @@
-<p><h1>SwiftChat</h1></p>
-<p><h4>A production-ready iOS chat template powered by the OpenAI Responses API, built with SwiftUI</h4></p>
+<p><h1>Tickle</h1></p>
+<p><h4>Tickle for iOS, based on SwiftChat</h4></p>
+
+Forked from [sachaservan/SwiftChat](https://github.com/sachaservan/SwiftChat). This fork keeps the original UI and behavior, with Tickle branding and copy.
 
 ![Swift](https://img.shields.io/badge/Swift-5.0+-orange.svg)
 ![Platform](https://img.shields.io/badge/Platform-iOS%2018+-blue.svg)

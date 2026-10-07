@@ -28,7 +28,7 @@ struct ContentView: View {
                     showAPIKeyPrompt = true
                 }
             }
-            .alert("API Key Required", isPresented: $showAPIKeyPrompt) {
+            .alert("Connect Tickle", isPresented: $showAPIKeyPrompt) {
                 TextField("Paste your API key", text: $apiKeyInput)
                     .autocorrectionDisabled()
                     .textInputAutocapitalization(.never)
@@ -40,7 +40,7 @@ struct ContentView: View {
                 }
                 Button("Cancel", role: .cancel) {}
             } message: {
-                Text("Enter your API key to start chatting.")
+                Text("Enter your API key to chat with Tickle.")
             }
     }
 }

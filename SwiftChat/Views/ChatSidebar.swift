@@ -74,7 +74,7 @@ struct ChatSidebar: View {
         VStack(spacing: 0) {
             // Chat History Header
             VStack(alignment: .leading, spacing: 4) {
-                Text("Chat History")
+                Text("History")
                     .font(.subheadline)
                     .fontWeight(.medium)
                     .foregroundColor(.secondary)
